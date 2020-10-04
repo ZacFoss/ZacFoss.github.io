@@ -26,29 +26,28 @@
 
 .section {
     display: flex;
-    justify-content: center;
-
+    align-items: center;
 }
 
 .section-1 {
-    display: flex;
     background: #c8c4d4;
     flex-direction: column;
     order: 1;
     flex-grow: 1;
+    flex-basis: 320px;
 }
 
 .section-2{
-    display: flex;
     background: #c8c4d4;
     flex-direction: column;
+    flex-basis: 640px;
     order: 2;
     flex-grow: 2;
 }
 
 .img-body {
     background: #c8c4d4;
-    width: 50%;
+    width: 70%;
     border: 1px solid black;
     border-radius: 4px;
 }
@@ -79,7 +78,7 @@ h3 {
     font-weight: bold 300;
 }
 
-/*@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
     .wrapper {
         display: flex;  
         justify-content: center;
