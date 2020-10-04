@@ -90,6 +90,7 @@ h3 {
         justify-content: center;
     }
     .section-1 {
+        align-items: center;
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-evenly;
