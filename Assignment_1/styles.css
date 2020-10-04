@@ -94,7 +94,7 @@ h3 {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-evenly;
-        margin-bottom: auto;
+        margin-bottom: 20px;
     }
     .img-body {
         background: #c8c4d4;
