@@ -40,9 +40,9 @@
 .section-2{
     background: #c8c4d4;
     flex-direction: column;
-    flex-basis: 640px;
     order: 2;
     flex-grow: 2;
+    flex-basis: 640px;
 }
 
 .img-body {
