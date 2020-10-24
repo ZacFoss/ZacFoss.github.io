@@ -19,7 +19,7 @@ form {
   }
   
   form li + li {
-    margin-top: 1.5em;
+    margin-top: 1em;
     display: flex;
     flex-direction: column;
     padding-left: 16%;
