@@ -33,12 +33,12 @@ router.post('/task', (req, res) => {
 
 //GET
 router.get('/task', (req, res) => {
-    if (!//TODO) {
+    if (!req.task.id) { //TODO
         return res.status(400).send('Missing URL parameter id')
     }
     let sql = "select * from tasklist where id = ?"
-    console.log("req.query.taskId: " + //TODO)
-    let params = [//TODO]
+    console.log("req.query.taskId: " + req.task.id) //TODO
+    let params = [req.params.id]
     db.get(sql, params, (err, row) => {
         if (err) {
           res.status(400).json({"error":err.message});
